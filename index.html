@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page de connexion</title>
+  <link rel="stylesheet" href="/css/index.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+        <img src="img/welcome.jpeg" alt="Bienvenue">
+    </div>
+    <div class="right-section">
+      <div class="logo">
+        <img src="/img/logo de l'entreprise.jpeg" alt="logo de l'entreprise">
+      </div>
+        <h2>Bienvenue !</h2>
+        <form>
+
+          <i class="fa-solid fa-user"></i>
+            <label for="identifiants">Identifiant<span style="color: red;">*</span></label>
+            <input type="text" id="identifiants" name="identifiants" required>
+            
+            <i class="fa-solid fa-key"></i>
+            <label for="motdepasse">Mot de passe<span style="color: red;">*</span></label>
+            <input type="password" id="motdepasse" name="motdepasse" required>
+          <div class="souvenir">
+            <input type="checkbox" id="seSouvenir" name="seSouvenir">
+            <label for="seSouvenir">Se souvenir de moi</label>
+          </div>
+
+            <input type="submit" value="Se connecter">
+        </form>
+    </div>
+</div>
+</body>
+</html>
